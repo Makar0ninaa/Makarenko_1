@@ -1,0 +1,31 @@
+.navbar {
+  border-radius: 20px;
+  background: #fff;
+  padding: 1.5vw !important;
+  margin-top: 32px !important;
+  margin-inline: 60px !important;
+}
+
+.logo-center {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  font-weight: 900;
+  font-size: 1.5rem;
+  top: 1vw;
+}
+
+.cart-badge {
+  background: orange;
+  color: #000;
+  font-weight: bold;
+  border-radius: 50%;
+  padding: 4px 8px;
+  font-size: 0.8rem;
+}
+
+.navbar-toggler {
+  border: 0;
+}
+/*# sourceMappingURL=header.css.map */

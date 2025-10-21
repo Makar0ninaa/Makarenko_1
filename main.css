@@ -1,0 +1,64 @@
+@charset "UTF-8";
+.navbar {
+  border-radius: 20px;
+  background: #fff;
+  padding: 1.5vw !important;
+  margin-top: 32px !important;
+  margin-inline: 60px !important;
+}
+
+.logo-center {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  font-weight: 900;
+  font-size: 1.5rem;
+  top: 1vw;
+}
+
+.cart-badge {
+  background: orange;
+  color: #000;
+  font-weight: bold;
+  border-radius: 50%;
+  padding: 4px 8px;
+  font-size: 0.8rem;
+}
+
+.navbar-toggler {
+  border: 0;
+}
+
+.carousel-item {
+  height: 600px;
+  /* фиксируем высоту */
+}
+
+.carousel-item img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  /* чтобы картинка заполняла блок */
+  height: 100%;
+}
+
+.badge {
+  border-radius: 28px 0 28px 0;
+}
+
+.card {
+  border-radius: 28px;
+}
+
+.card-img-top {
+  border-radius: 28px;
+}
+
+body {
+  background-color: #E7E7E3;
+}
+
+.myTab {
+  max-height: 300px;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,8 @@
+
+.carousel-item {
+      height: 600px;           /* фиксируем высоту */
+    }
+.carousel-item img {
+    object-fit: cover;       /* чтобы картинка заполняла блок */
+    height: 100%;
+}

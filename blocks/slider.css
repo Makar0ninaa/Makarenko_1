@@ -1,0 +1,13 @@
+@charset "UTF-8";
+.carousel-item {
+  height: 600px;
+  /* фиксируем высоту */
+}
+
+.carousel-item img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  /* чтобы картинка заполняла блок */
+  height: 100%;
+}
+/*# sourceMappingURL=slider.css.map */
